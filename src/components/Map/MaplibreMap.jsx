@@ -1,7 +1,7 @@
 import 'maplibre-gl/dist/maplibre-gl.css';
 import Map, { Marker, useMap } from 'react-map-gl';
 // eslint-disable-next-line import/no-webpack-loader-syntax
-import maplibregl from 'maplibre-gl';
+// import maplibregl from 'maplibre-gl';
 import useEventListener from '@use-it/event-listener';
 import { useSnackbar } from 'notistack';
 import { MapContextProvider } from './context';
