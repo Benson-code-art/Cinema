@@ -18,6 +18,7 @@ const NotFound = () => (
 
 // Use @loadable/component to dynamic import the CinemaMarkers & NearbyCinemaMarkes
 // this will make the application utilise code splitting to decrease the total initial code file size.
+import React from 'react';
 const CinemaMarkers = loadable(() => import("./components/CinemaMarkers"));
 const NearbyCinemaMarkers = loadable(() =>
   import("./components/NearbyCinemaMarkers")
